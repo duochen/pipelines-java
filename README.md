@@ -1,1 +1,1 @@
-[![Build Status](https://duochen.visualstudio.com/AzurePipelineProject/_apis/build/status/duochen.pipelines-java?branchName=master)](https://duochen.visualstudio.com/AzurePipelineProject/_build/latest?definitionId=2&branchName=master) 
+[![Build Status](https://dev.azure.com/slb-swt/liftiq/_apis/build/status/Sandbox/duochen.pipelines-java?branchName=master)](https://dev.azure.com/slb-swt/liftiq/_build/latest?definitionId=6777&branchName=master)
