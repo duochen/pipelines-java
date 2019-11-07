@@ -21,6 +21,15 @@ steps:
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
 
+- powershell: |
+    # Using an input-macro:
+    Write-Host "This works: $(mySecret)"   
+
+    # Using the mapped env var:
+    Write-Host "This works: $env:MY_MAPPED_ENV_VAR"  # Recommend
+  env:
+    MY_MAPPED_ENV_VAR: $(mySecret)
+
 - task: PublishCodeCoverageResults@1
   inputs:
     codeCoverageTool: "JaCoCo"
